@@ -8,24 +8,16 @@
 	</head>
 	<body>
 		<div class="centerBox">
-			<h1>BadRecovery web builder</h1>
+			<h1>GoodSilver web builder</h1>
 			<a href="." class="centertext">Home</a>
 			<p>
-				Follow the steps <a target="_blank" href="https://github.com/BinBashBanana/badrecovery?tab=readme-ov-file#preparing-an-image">here</a>
-				to find the right file to upload here. Do not upload a zip file; you must unzip it and use the bin file inside.
-				<br>Before pressing start, you may select any of the options below. Note that "Internal disk" is only applicable for the postinst_sym type.
+				First, you must download an official r124 recovery image for your device. You can download them from ChromiumDash or cros.download.
+				<br>Be sure you've downloaded the correct image for your device.
+				<br>Make sure to unzip the recovery image before proceeding to the next step!
 				<br>Press the start button to select your file. The builder will start up and your built image will automatically download when finished.
 			</p>
 			<div id="builderOptions">
 				<h3>Options</h3>
-				<label><select name="type">
-					<option value="">auto</option>
-					<option value="postinst">postinst</option>
-					<option value="postinst_sym">postinst_sym</option>
-					<option value="persist">persist</option>
-					<option value="basic">basic</option>
-					<option value="unverified">unverified</option>
-				</select> <span>Type</span></label>
 				<label><select name="internal_disk">
 					<option value="mmcblk0">mmcblk0 (eMMC)</option>
 					<option value="mmcblk1">mmcblk1 (eMMC)</option>
